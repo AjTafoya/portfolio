@@ -1,0 +1,86 @@
+
+#header{
+	width: cover;
+	height:wrap;
+	background-color:#800080;
+	position: fixed;
+	
+
+}
+#amButton{
+background-color: transparent;
+border-color: black;
+height:35px;
+float:left;
+
+}
+#cmButton {
+background-color: transparent;
+border-color: black;
+height: 35px;
+float:left;
+
+}
+
+#pButton{
+background-color: transparent;
+border-color: black;
+height:35px;
+float:left;
+
+}
+
+#aboutMe{
+background-image:url("http://i862.photobucket.com/albums/ab181/alexinwonderrland/backgrounds/24zzwuw.jpg");
+height:auto;
+background-size: cover;
+}
+
+#name{
+	margin-top:5%;
+	background-color:#ff005d;
+	width:wrap;
+	height:cover;
+	float:right;
+	margin-right:25%;
+	display: inline-block;
+	
+
+}
+#amp{
+	background-color:white;
+	opacity:0.5;
+	float:right;
+	margin-left:55%;
+	margin-right:25%;
+	font-size: 15px;
+	display:inline-block;
+}
+
+#picture{
+	height:250px;
+	width:250px;
+	margin-left:30%;
+	margin-top:-175px;
+	margin-bottom: 5%;
+	border-style: 2px solid black;
+	border-radius: 50px;
+
+	
+
+}
+
+#Projects{
+	background-image: url("http://img11.deviantart.net/af6c/i/2014/064/8/e/blue_and_green_digital_backdrop___background_by_rcportraits-d792rq5.png");
+	background-size: cover;
+	width:cover;
+	height: 500px;
+}
+
+#contactMe{
+	background-image: url("https://nicolekennedydesign.files.wordpress.com/2014/02/crgalaxywaterbottle-966651.jpeg");
+	background-size: cover;
+	width:cover;
+	height: 500px;
+
+}
