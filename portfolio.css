@@ -84,3 +84,38 @@ background-size: cover;
 	height: 500px;
 
 }
+#git{
+
+  
+ 
+  display:inline-block;
+  color:white;
+  
+  
+}
+#social{
+  
+  opacity:.9;
+  color:white;
+  
+}
+#link{
+  
+  font-size:200px;
+  border-radius:50px;
+  display:inline-block;
+  color:white;
+  margin-top:10%;
+}
+#pen{
+  font-size:200px;
+  border-radius:50px;
+  display:inline-block;
+  color:black;
+}
+#FCC{
+  font-size:200px;
+  border-radius:50px;
+  display:inline-block;
+  color:white;
+}
