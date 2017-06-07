@@ -15,7 +15,7 @@ body{
 /* header */
 
 header{
-	background-color:#FA8072;
+	background-color:#F1948A;
 	padding-top:20px;
 	min-height: 70px;
 
@@ -45,7 +45,7 @@ section #aboutme{
 	overflow:hidden;
 }
 #aboutme{
-	background-color:#34495E;
+	background-color:#E74C3C;
 	padding:10px 10px 10px 10px;
 
 
@@ -59,15 +59,19 @@ section #aboutme{
 section h4{
 	color: #FDFEFE;
 	text-align: center;
-	margin:auto;
+
 
 
 }
 /* projects */
 
-
+h2{
+	color: #FDFEFE;
+	text-align: center;
+	
+}
 #project{
-	background-color: #CC0033;
+	background-color:#CB4335;
 	padding:2% 2% 2% 2%;
 	overflow: hidden;
 	
@@ -76,17 +80,19 @@ section h4{
 /* contact me */
 
 #contact{
-	background-color:#4A235A;
+	 background-color: #B03A2E;
 
 }
 #social{
-	padding:2% 2% 2% 2%;
+	padding:5% 10% 5% 10%;
+
 }
 /* footer */ 
 
 footer{
-	background-color: #AEB6BF;
+	background-color: #78281F;
 	text-align: center;
+	color: #FDFEFE;
 }
 
 
