@@ -46,6 +46,7 @@ section #aboutme{
 }
 #aboutme{
 	background-color:#34495E;
+	padding:10px 10px 10px 10px;
 
 
 }
@@ -57,6 +58,10 @@ section #aboutme{
 }
 section h4{
 	color: #FDFEFE;
+	text-align: center;
+	margin:auto;
+
+
 }
 /* projects */
 
