@@ -1,121 +1,89 @@
+body{
+	font-family: Arial, Sans-serif, Times;
+	padding:0;
+	margin:0;
+	background-color:#cfdddd;
 
-#header{
-	width: cover;
-	height:wrap;
-	background-color:#800080;
-	position: fixed;
+}
+/* global */
+.container{
+	width:80%;
+	margin: auto;
+	overflow:hidden;
+	display: inline;
+}
+/* header */
+
+header{
+	background-color:#FA8072;
+	padding-top:20px;
+	min-height: 70px;
+
 	
+}
+header a{
+	text-decoration: none;
+	text-transform: uppercase;
 
 }
-#amButton{
-background-color: transparent;
-border-color: black;
-height:35px;
-float:left;
-
-}
-#cmButton {
-background-color: transparent;
-border-color: black;
-height: 35px;
-float:left;
-
+header #name h1{
+margin:0;
+padding: 0;
 }
 
-#pButton{
-background-color: transparent;
-border-color: black;
-height:35px;
-float:left;
-
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
 }
-
-#aboutMe{
-background-image:url("http://i862.photobucket.com/albums/ab181/alexinwonderrland/backgrounds/24zzwuw.jpg");
-height:auto;
-background-size: cover;
-}
-
-#name{
-	margin-top:5%;
-	background-color:#ff005d;
-	width:wrap;
-	height:cover;
+header nav{
 	float:right;
-	margin-right:25%;
-	display: inline-block;
+}
+
+/* about me */
+section #aboutme{
+	overflow:hidden;
+}
+#aboutme{
+	background-color:#34495E;
+
+
+}
+
+#selfie{
 	
-
+	width:15%;
+	height:15%;
 }
-#amp{
-	background-color:white;
-	opacity:0.5;
-	float:right;
-	margin-left:55%;
-	margin-right:25%;
-	font-size: 15px;
-	display:inline-block;
+section h4{
+	color: #FDFEFE;
 }
+/* projects */
 
-#picture{
-	height:250px;
-	width:250px;
-	margin-left:30%;
-	margin-top:-175px;
-	margin-bottom: 5%;
-	border-style: 2px solid black;
-	border-radius: 50px;
 
+#project{
+	background-color: #CC0033;
+	padding:2% 2% 2% 2%;
+	overflow: hidden;
 	
-
 }
 
-#Projects{
-	background-image: url("http://img11.deviantart.net/af6c/i/2014/064/8/e/blue_and_green_digital_backdrop___background_by_rcportraits-d792rq5.png");
-	background-size: cover;
-	width:cover;
-	height: 500px;
-}
+/* contact me */
 
-#contactMe{
-	background-image: url("https://nicolekennedydesign.files.wordpress.com/2014/02/crgalaxywaterbottle-966651.jpeg");
-	background-size: cover;
-	width:cover;
-	height: 500px;
+#contact{
+	background-color:#4A235A;
 
-}
-#git{
-
-  
- 
-  display:inline-block;
-  color:white;
-  
-  
 }
 #social{
-  
-  opacity:.9;
-  color:white;
-  
+	padding:2% 2% 2% 2%;
 }
-#link{
-  
-  font-size:200px;
-  border-radius:50px;
-  display:inline-block;
-  color:white;
-  margin-top:10%;
+/* footer */ 
+
+footer{
+	background-color: #AEB6BF;
+	text-align: center;
 }
-#pen{
-  font-size:200px;
-  border-radius:50px;
-  display:inline-block;
-  color:black;
-}
-#FCC{
-  font-size:200px;
-  border-radius:50px;
-  display:inline-block;
-  color:white;
-}
+
+
+
+
