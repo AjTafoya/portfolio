@@ -1,17 +1,11 @@
-body{
+
+
+body {
 	font-family: Arial, Sans-serif, Times;
-	padding:0;
-	margin:0;
-	background-color:#cfdddd;
+	b
 
 }
-/* global */
-.container{
-	width:80%;
-	margin: auto;
-	overflow:hidden;
-	display: inline;
-}
+
 /* header */
 
 header{
@@ -19,7 +13,7 @@ header{
 	padding-top:20px;
 	min-height: 70px;
 
-	
+
 }
 header a{
 	text-decoration: none;
@@ -45,16 +39,24 @@ section #aboutme{
 	overflow:hidden;
 }
 #aboutme{
-	background-color:#E74C3C;
-	padding:10px 10px 10px 10px;
 
+	margin:2% 0 2% 0;
+	text-align: center;
+	background-color:#922B21;
 
+}
+#aboutme h4{
+	text-align: center;
+	margin:15% 0 2% 0;
+	color:#ffffff;
 }
 
 #selfie{
-	
-	width:15%;
-	height:15%;
+margin: 2% 0 2% 0;
+width:35%;
+height: auto;
+border-radius: 35%;
+
 }
 section h4{
 	color: #FDFEFE;
@@ -68,33 +70,25 @@ section h4{
 h2{
 	color: #FDFEFE;
 	text-align: center;
-	
+
 }
-#project{
-	background-color:#CB4335;
-	padding:2% 2% 2% 2%;
+#projects{
+	background-color:#922B21;
+	margin:2% 0 2% 0;
 	overflow: hidden;
-	
+
+
 }
 
 /* contact me */
-
 #contact{
-	 background-color: #B03A2E;
-
+	background-color:#922B21;
+	overflow: hidden;
 }
-#social{
-	padding:5% 10% 5% 10%;
-
-}
-/* footer */ 
+/* footer */
 
 footer{
-	background-color: #78281F;
+	background-color: #283747;
 	text-align: center;
 	color: #FDFEFE;
 }
-
-
-
-
