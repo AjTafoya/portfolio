@@ -2,8 +2,25 @@
 
 body {
 	font-family: Arial, Sans-serif, Times;
-	b
+	background-color:#838da6 !important;
 
+}
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
 }
 
 /* header */
@@ -79,11 +96,18 @@ h2{
 
 
 }
+#projects img{
+	margin: 2% 0 2% 0;
+	height: auto;
+}
 
 /* contact me */
 #contact{
 	background-color:#922B21;
 	overflow: hidden;
+}
+#social img{
+	margin:2% 0 2% 0;
 }
 /* footer */
 
