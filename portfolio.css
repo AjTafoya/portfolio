@@ -88,6 +88,7 @@ section h4{
 	color: #ffffff;
 	text-align: center;
 
+
 }
 #projects{
 	background-color:#922B21;
@@ -98,7 +99,7 @@ section h4{
 }
 #projects img{
 	margin: 2% 0 2% 0;
-	height: auto;
+	height: 85%;
 }
 
 /* contact me */
@@ -108,7 +109,23 @@ section h4{
 }
 #social img{
 	margin:2% 0 2% 0;
+	height:65%;
 }
+
+/*form */
+form{
+	margin:5px;
+}
+form h2{
+	color: white;
+}
+form p{
+	color:white;
+}
+form#comment{
+	height:550px;
+}
+
 /* footer */
 
 footer{
