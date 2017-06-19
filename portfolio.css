@@ -94,22 +94,30 @@ section h4{
 	background-color:#922B21;
 	margin:2% 0 2% 0;
 	overflow: hidden;
+	
+
 
 
 }
 #projects img{
 	margin: 2% 0 2% 0;
-	height: 85%;
+
 }
 
 /* contact me */
 #contact{
 	background-color:#922B21;
+	margin:2% 0 2% 0;
 	overflow: hidden;
 }
-#social img{
+#social{
 	margin:2% 0 2% 0;
-	height:65%;
+	background-color:#922B21;
+	overflow: hidden;
+
+}
+#social img{
+	margin: 2% 0 2% 0;
 }
 
 /*form */
@@ -122,9 +130,7 @@ form h2{
 form p{
 	color:white;
 }
-form#comment{
-	height:550px;
-}
+
 
 /* footer */
 
