@@ -5,6 +5,10 @@ body {
 	background-color:#838da6 !important;
 
 }
+.bend{
+	border-radius: 1%;
+	box-shadow: 5% 5% 5% black;
+}
 /* Grow */
 .hvr-grow {
     display: inline-block;
@@ -37,19 +41,19 @@ header a{
 	text-transform: uppercase;
 
 }
-header #name h1{
+header #title h1{
 margin:0;
 padding: 0;
+float:left;
+}
+.dropdown{
+	float:right;
+	margin-right:10%;
 }
 
-header li{
-	float:left;
-	display:inline;
-	padding: 0 20px 0 20px;
-}
-header nav{
-	float:right;
-}
+
+
+
 
 /* about me */
 section #aboutme{
@@ -92,7 +96,6 @@ section h4{
 }
 #projects{
 	background-color:#922B21;
-	margin:2% 0 2% 0;
 	overflow: hidden;
 
 
@@ -102,7 +105,7 @@ section h4{
 #projects img{
 	display:inline-block;
 	margin:2% 0 2% 0;
-	
+
 }
 
 /* contact me */
@@ -129,9 +132,14 @@ form h2{
 	color: white;
 }
 form p{
-	color:white;
+	color:black;
+	margin:2px;
+	font-family: "Comic sans",Courier New", "Courier";
 }
-
+form input{
+	border-radius:5%;
+	box-shadow: 5px 5px 5px black;
+}
 
 /* footer */
 
@@ -139,4 +147,6 @@ footer{
 	background-color: #283747;
 	text-align: center;
 	color: #FDFEFE;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
 }
